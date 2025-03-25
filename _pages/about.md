@@ -7,17 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn), [Tsinghua University](https://www.tsinghua.edu.cn), advised by [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
-
-Research Interests
-------
-- Internet Infrastructure Security
-- Internet Measurement
+I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn), [Tsinghua University](https://www.tsinghua.edu.cn), advised by [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html). My research interests include Internet infrastructure security and Internet measurement.
 
 Publications
 ------
 - **Robust or Risky: Measurement and Analysis of Domain Resolution Dependency** [[paper]](https://ieeexplore.ieee.org/abstract/document/10621098)     
-**Shuhan Zhang**, Shuai Wang, and Dan Li. *IEEE Conference on Computer Communications, 2024* (**INFOCOM '24**).    
+**Shuhan Zhang**, Shuai Wang, and Dan Li. *IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**).    
 *Acceptance rate: 256/1307=19.6%.*
 
 Education
