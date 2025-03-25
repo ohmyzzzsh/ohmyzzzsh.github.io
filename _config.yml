@@ -10,7 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Shuhan Zhang"
-title_separator          : "-"
+# title_separator          : "-"
 name                     : &name "Shuhan Zhang"
 description              : &description "Ph.D. Candidate at INSC, Tsinghua University"
 url                      : https://ohmyzzzsh.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
