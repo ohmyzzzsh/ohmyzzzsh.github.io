@@ -12,14 +12,14 @@ I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https:
 Publications
 ------
 - **Robust or Risky: Measurement and Analysis of Domain Resolution Dependency** [[paper]](https://ieeexplore.ieee.org/abstract/document/10621098)     
-**Shuhan Zhang**, Shuai Wang, and Dan Li.      
-*IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**).      
-Rank: CCF-A. Acceptance rate: 256/1307=19.6%
+**Shuhan Zhang**, Shuai Wang, and Dan Li               
+*IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**)        
+<!-- Rank: CCF-A. Acceptance rate: 256/1307=19.6% -->
 
 - **SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast**   
 Ke Zhou, Shuai Wang, Li Chen, Dan Li, and **Shuhan Zhang**.       
-*IEEE Conference on Computer Communications, 2025* (**INFOCOM ’25**).     
-Rank: CCF-A. Acceptance rate: 272/1458=18.7%
+*IEEE Conference on Computer Communications, 2025* (**INFOCOM ’25**)       
+<!-- Rank: CCF-A. Acceptance rate: 272/1458=18.7% -->
 
 Education
 ------
