@@ -11,10 +11,6 @@ I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https:
 
 Publications
 ------
-<!-- - **Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation**       
-**Shuhan Zhang**, Shuai Wang, Li Chen, Dan Li, and Baojun Liu                            
-*Proceedings of the 34th USENIX Security Symposium, 2025* (**USENIX Security ’25**)       -->
-
 - **Robust or Risky: Measurement and Analysis of Domain Resolution Dependency** [[paper]](https://ieeexplore.ieee.org/abstract/document/10621098)     
 **Shuhan Zhang**, Shuai Wang, and Dan Li               
 *IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**)        
