@@ -12,10 +12,12 @@ I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https:
 Publications
 ------
 - **Robust or Risky: Measurement and Analysis of Domain Resolution Dependency** [[paper]](https://ieeexplore.ieee.org/abstract/document/10621098)     
-**Shuhan Zhang**, Shuai Wang, and Dan Li. *IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**). Acceptance rate: 256/1307=19.6%
+**Shuhan Zhang**, Shuai Wang, and Dan Li.      
+*IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**). Acceptance rate: 256/1307=19.6%
 
 - **SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast**   
-Ke Zhou, Shuai Wang, Li Chen, Dan Li, and **Shuhan Zhang**. *IEEE Conference on Computer Communications, 2025* (**INFOCOM ’25**). Acceptance rate: 272/1458=18.7%
+Ke Zhou, Shuai Wang, Li Chen, Dan Li, and **Shuhan Zhang**.       
+*IEEE Conference on Computer Communications, 2025* (**INFOCOM ’25**). Acceptance rate: 272/1458=18.7%
 
 Education
 ------
@@ -36,7 +38,7 @@ Research intern. June 2023 - August 2023
 Awards
 ------
 - National Scholarship, 2024
-- Beijing Outstanding Graduate, 2022
+- Outstanding Graduate of Beijing, 2022
 - National Scholarship, 2020
 - 1st-prize in National College Student Mathematics Contest, Beijing Division, 2020
 - 1st-class Scholarship of Beijing University of Posts and Telecommunications, 2019
