@@ -19,11 +19,11 @@ Ke Zhou, Shuai Wang, Li Chen, Dan Li, and **Shuhan Zhang**. *IEEE Conference on 
 
 Education
 ------
-- **Tsinghua University** (September 2022 - present)   
-Ph.D. Candidate in Cyberspace Security
+- **Tsinghua University**       
+Ph.D. Candidate in Cyberspace Security. September 2022 - present
 
-- **Beijing University of Posts and Telecommunications** (September 2018 - June 2022)   
-B.S. in Internet of Things Engineering
+- **Beijing University of Posts and Telecommunications**      
+B.S. in Internet of Things Engineering. September 2018 - June 2022
 
 Experiences
 ------
