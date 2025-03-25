@@ -39,7 +39,7 @@ Research intern
 
 - **NSFOCUS**         
 *June 2023 - August 2023*         
-Research intern. 
+Research intern
 
 Awards
 ------
