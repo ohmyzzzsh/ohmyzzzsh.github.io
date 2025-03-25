@@ -7,21 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn), [Tsinghua University](https://www.tsinghua.edu.cn), advised by [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html). My research interests include Internet infrastructure security and Internet measurement.
+I am a Ph.D. candidate at [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn), [Tsinghua University](https://www.tsinghua.edu.cn), supervised by [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html). My research interests include Internet infrastructure security and Internet measurement.
 
 Publications
 ------
 - **Robust or Risky: Measurement and Analysis of Domain Resolution Dependency** [[paper]](https://ieeexplore.ieee.org/abstract/document/10621098)     
-**Shuhan Zhang**, Shuai Wang, and Dan Li. *IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**).    
-*Acceptance rate: 256/1307=19.6%.*
+**Shuhan Zhang**, Shuai Wang, and Dan Li. *IEEE Conference on Computer Communications, 2024* (**INFOCOM ’24**). Acceptance rate: 256/1307=19.6%.
+
+- **SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast**   
+Ke Zhou, Shuai Wang, Li Chen, Dan Li, and **Shuhan Zhang**. *IEEE Conference on Computer Communications, 2025* (**INFOCOM ’25**). Acceptance rate: 272/1458=18.7%.
 
 Education
 ------
 - **Tsinghua University** (September 2022 - present)   
-Ph.D. Candidate in Cyberspace Security at [INSC](https://www.insc.tsinghua.edu.cn), advised by [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html)
+Ph.D. Candidate in Cyberspace Security.
 
 - **Beijing University of Posts and Telecommunications** (September 2018 - June 2022)   
-B.S. in Internet of Things Engineering
+B.S. in Internet of Things Engineering.
 
 Experiences
 ------
