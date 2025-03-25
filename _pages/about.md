@@ -38,7 +38,7 @@ Awards
 - National Scholarship, 2024
 - Beijing Outstanding Graduate, 2022
 - National Scholarship, 2020
-- 1st-prize in National College Student Mathematics Contest, 2020
+- 1st-prize in National College Student Mathematics Contest, Beijing Division, 2020
 - 1st-class Scholarship of Beijing University of Posts and Telecommunications, 2019
 
 Projects
