@@ -24,18 +24,22 @@ Acceptance rate: 272/1458=18.7%
 Education
 ------
 - **Tsinghua University**       
-Ph.D. Candidate in Cyberspace Security. September 2022 - present
+*September 2022 - present*       
+Ph.D. Candidate in Cyberspace Security
 
 - **Beijing University of Posts and Telecommunications**      
-B.S. in Internet of Things Engineering. September 2018 - June 2022
+*September 2018 - June 2022*        
+B.S. in Internet of Things Engineering
 
 Experiences
 ------
-- **Zhongguancun Laboratory**   
-Research intern. December 2023 - present
+- **Zhongguancun Laboratory**        
+*December 2023 - present*          
+Research intern
 
-- **NSFOCUS**   
-Research intern. June 2023 - August 2023
+- **NSFOCUS**         
+*June 2023 - August 2023*         
+Research intern. 
 
 Awards
 ------
