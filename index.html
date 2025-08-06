@@ -147,7 +147,7 @@
         <!--
           - About Me
         -->
-        <div class="markdown-body" id="about-container"></div>
+        <div class="markdown-body no-wrap-links" id="about-container"></div>
 
         <!--
           - Research Interest
@@ -343,17 +343,24 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
   fetch('./assets/content/about.md')
-    .then(r => r.text())
-    .then(text => {
-      document.getElementById('about-container').innerHTML = `
-        <header>
-          <h2 class="h2 article-title">About Me</h2>
-        </header>
-        <section class="about-text">
-          ${marked.parse(text)}
-        </section>
-      `;
+  .then(r => r.text())
+  .then(text => {
+    document.getElementById('about-container').innerHTML = `
+      <header>
+        <h2 class="h2 article-title">About Me</h2>
+      </header>
+      <section class="about-text">
+        ${marked.parse(text)}
+      </section>
+    `;
+    
+    // 动态调整链接样式
+    const links = document.querySelectorAll('.about-text a');
+    links.forEach(link => {
+      link.style.display = 'inline';
+      link.style.whiteSpace = 'nowrap';
     });
+  });
   </script>
 
 </body>
