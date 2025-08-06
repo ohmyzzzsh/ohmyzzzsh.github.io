@@ -320,8 +320,13 @@ article.active {
 
 .markdown-body ul {
   list-style-type: disc !important;
-  padding-left: 2em !important;
+  padding-left: 1em !important;
   margin-bottom: 1em !important;
+}
+
+.markdown-body li {
+  display: list-item !important;
+  list-style-position: outside !important;
 }
 
 .markdown-body p {
