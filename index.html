@@ -142,17 +142,12 @@
     </aside>
 
     <div class="main-content">
-
       <article class="about  active" data-page="about">
 
         <!--
           - About Me
         -->
-        <header>
-          <h2 class="h2 article-title">About Me</h2>
-        </header>
-        <section class="about-text" id="about-content">
-        </section>
+        <div class="markdown-body" id="about-container"></div>
 
         <!--
           - Research Interest
@@ -347,10 +342,17 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-  fetch('./assets/content/awards.md')
-    .then(response => response.text())
+  fetch('./assets/content/about.md')
+    .then(r => r.text())
     .then(text => {
-      document.getElementById('about-content').innerHTML = marked.parse(text);
+      document.getElementById('about-container').innerHTML = `
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          ${marked.parse(text)}
+        </section>
+      `;
     });
   </script>
 
