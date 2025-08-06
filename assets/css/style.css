@@ -348,7 +348,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-8);
+  font-size: 14px;
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
@@ -418,19 +418,17 @@ main {
 
 .contact-title {
   color: var(--light-gray-70);
-  font-size: var(--fs-8);
+  font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-8);
+  font-size: 14px;
 }
 
-.contact-info address { 
-  font-style: normal; 
-}
+.contact-info address { font-style: normal; }
 
 .social-list {
   display: flex;
@@ -504,12 +502,19 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-main);
   font-weight: var(--fw-300);
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .about-text p { margin-bottom: 15px; }
 
+.research-text {
+  color: var(--light-gray);
+  font-size: var(--fs-main);
+  font-weight: var(--fw-300);
+  line-height: 1.3;
+}
 
+.research-text p { margin-bottom: 15px; }
 
 /**
  * #service 
