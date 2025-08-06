@@ -868,6 +868,7 @@ main {
 }
 
 .timeline-list span {
+  color: var(--light-gray);
   font-size: var(--fs-main);
   font-weight: var(--fw-400);
   line-height: 1.3;
