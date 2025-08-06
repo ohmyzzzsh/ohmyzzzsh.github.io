@@ -147,6 +147,7 @@
         <div class="markdown-body no-wrap-links" id="about-container"></div>
         <div class="markdown-body no-wrap-links" id="research-container"></div>
         <div class="markdown-body no-wrap-links" id="publications-container"></div>
+        <div class="markdown-body no-wrap-links" id="awards-container"></div>
 
         <!--
           - Education
@@ -324,6 +325,27 @@
             </div>
 
             <h3 class="h3">Publications</h3>
+          </div>
+
+          <div class="markdown-body">
+            ${marked.parse(text)}
+          </div>
+          </section>
+      </section>
+    `;
+  });
+
+  fetch('./assets/content/awards.md')
+  .then(r => r.text())
+  .then(text => {
+    document.getElementById('awards-container').innerHTML = `
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon"></ion-icon>
+            </div>
+
+            <h3 class="h3">Honors & Awards</h3>
           </div>
 
           <div class="markdown-body">
