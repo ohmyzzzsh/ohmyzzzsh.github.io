@@ -185,9 +185,9 @@ article {
 .icon-box {
   position: relative;
   background: var(--border-gradient-onyx);
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,7 +206,7 @@ article {
   z-index: -1;
 }
 
-.icon-box ion-icon { --ionicon-stroke-width: 35px; }
+.icon-box ion-icon { --ionicon-stroke-width: 25px; }
 
 article { display: none; }
 
