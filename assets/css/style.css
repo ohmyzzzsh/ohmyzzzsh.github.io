@@ -400,19 +400,19 @@ main {
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 16px;
 }
 
 .contact-item {
   min-width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 .contact-info {
-  max-width: calc(100% - 50px);
-  width: calc(100% - 50px);
+  max-width: calc(100% - 46px);
+  width: calc(100% - 46px);
 }
 
 .contact-title {
