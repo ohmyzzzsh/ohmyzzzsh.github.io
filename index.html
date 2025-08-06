@@ -144,26 +144,8 @@
     <div class="main-content">
       <article class="about  active" data-page="about">
 
-        <!--
-          - About Me
-        -->
         <div class="markdown-body no-wrap-links" id="about-container"></div>
-
-        <!--
-          - Research Interest
-        -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="bulb"></ion-icon>
-            </div>
-
-            <h3 class="h3">Research Interests</h3>
-          </div>
-
-          <section class="research-text" id="research-content">
-          </section>
-      </section>
+        <div class="markdown-body no-wrap-links" id="research-container"></div>
 
         <!--
           - Publications
@@ -353,14 +335,39 @@
         ${marked.parse(text)}
       </section>
     `;
+    adjustLinks('.about-text a');
+  });
     
-    // 动态调整链接样式
-    const links = document.querySelectorAll('.about-text a');
+  fetch('./assets/content/research.md')
+  .then(r => r.text())
+  .then(text => {
+    document.getElementById('research-container').innerHTML = `
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bulb"></ion-icon>
+            </div>
+
+            <h3 class="h3">Research Interests</h3>
+          </div>
+
+          <div class="markdown-body">
+            ${formatTimelineItems(marked.parse(text))}
+          </div>
+          </section>
+      </section>
+    `;
+    adjustLinks('.research-text a');
+  });
+
+  function adjustLinks(selector) {
+    const links = document.querySelectorAll(selector);
     links.forEach(link => {
       link.style.display = 'inline';
       link.style.whiteSpace = 'nowrap';
+      link.style.color = 'var(--bittersweet-shimmer)';
     });
-  });
+  }
   </script>
 
 </body>
