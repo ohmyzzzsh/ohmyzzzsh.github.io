@@ -67,7 +67,7 @@
   --vegas-gold: hsl(282, 21%, 50%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(282, 21%, 50%);
+  --bittersweet-shimmer: hsl(283, 26%, 66%);
 
   /**
    * typography
@@ -84,7 +84,7 @@
   --fs-5: 15px;
   --fs-6: 14px;
   --fs-7: 13px;
-  --fs-8: 11px;
+  --fs-8: 13px;
 
   /* font-weight */
   --fw-300: 300;
@@ -185,9 +185,9 @@ article {
 .icon-box {
   position: relative;
   background: var(--border-gradient-onyx);
-  width: 25px;
-  height: 25px;
-  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,7 +206,7 @@ article {
   z-index: -1;
 }
 
-.icon-box ion-icon { --ionicon-stroke-width: 30px; }
+.icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
 
