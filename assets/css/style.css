@@ -796,6 +796,7 @@ main {
   font-size: var(--fs-main);
   line-height: 1.2;
   margin-bottom: 7px;
+  text-transform: none;
 }
 
 .timeline-list span {
