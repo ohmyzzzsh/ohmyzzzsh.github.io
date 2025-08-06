@@ -354,10 +354,6 @@
       const researchText = await researchResponse.text();
       document.getElementById('research-content').innerHTML = marked.parse(researchText);
 
-      const publicationsResponse = await fetch('./assets/content/publications.md');
-      const publicationsText = await publicationsResponse.text();
-      document.getElementById('publications-content').innerHTML = marked.parse(publicationsText);
-
       const awardsResponse = await fetch('./assets/content/awards.md');
       const awardsText = await awardsResponse.text();
       document.getElementById('awards-content').innerHTML = marked.parse(awardsText);
@@ -365,6 +361,10 @@
       const miscResponse = await fetch('./assets/content/misc.md');
       const miscText = await miscResponse.text();
       document.getElementById('misc-content').innerHTML = marked.parse(miscText);
+
+      const publicationsResponse = await fetch('./assets/content/publications.md');
+      const publicationsText = await publicationsResponse.text();
+      document.getElementById('publications-content').innerHTML = marked.parse(publicationsText);
     }
 
     window.addEventListener('DOMContentLoaded', loadMarkdown);
