@@ -348,6 +348,7 @@
         ${marked.parse(text)}
       </section>
     `;
+    adjustLinks('.markdown-body a');
   });
 
   fetch('./assets/content/awards.md')
@@ -358,6 +359,7 @@
         ${marked.parse(text)}
       </section>
     `;
+    adjustLinks('.markdown-body ul');
   });
 
   fetch('./assets/content/misc.md')
