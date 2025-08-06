@@ -185,8 +185,8 @@ article {
 .icon-box {
   position: relative;
   background: var(--border-gradient-onyx);
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -206,7 +206,7 @@ article {
   z-index: -1;
 }
 
-.icon-box ion-icon { --ionicon-stroke-width: 25px; }
+.icon-box ion-icon { --ionicon-stroke-width: 30px; }
 
 article { display: none; }
 
@@ -400,14 +400,14 @@ main {
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
+  gap: 5px;
 }
 
 .contact-item {
   min-width: 100%;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
 
 .contact-info {
