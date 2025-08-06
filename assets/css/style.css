@@ -551,7 +551,7 @@ main {
   font-size: var(--fs-main);
   font-weight: var(--fw-300);
   line-height: 1.8;
-  margin-left: 5px !important;
+  margin-left: 6px !important;
 }
 
 .awards-text {
@@ -559,7 +559,7 @@ main {
   font-size: var(--fs-main);
   font-weight: var(--fw-300);
   line-height: 1.8;
-  margin-left: 5px !important;
+  margin-left: 6px !important;
 }
 
 /**
