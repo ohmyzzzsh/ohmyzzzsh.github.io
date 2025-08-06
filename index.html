@@ -146,10 +146,14 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
         <section class="about-text" id="about-content">
+        </section>
+
+        <h3 class="h3 service-title">Research Interest</h3>
+        <section class="research-text" id="research-content">
         </section>
 
         <section class="timeline">
@@ -284,6 +288,10 @@
       const aboutResponse = await fetch('./assets/content/about.md');
       const aboutText = await aboutResponse.text();
       document.getElementById('about-content').innerHTML = marked.parse(aboutText);
+
+      const researchResponse = await fetch('./assets/content/research.md');
+      const researchText = await researchResponse.text();
+      document.getElementById('research-content').innerHTML = marked.parse(researchText);
 
       const educationResponse = await fetch('./assets/content/education.md');
       const educationText = await educationResponse.text();
