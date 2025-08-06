@@ -304,12 +304,16 @@ article.active {
   white-space: normal !important;
   word-break: normal !important;
   overflow-wrap: normal !important;
+
   color: var(--bittersweet-shimmer) !important;
-  text-decoration: none;
-  display: inline;
+  text-decoration: none !important;
+
+  transition: color 0.2s ease;
 }
+
 .markdown-body a:hover {
-  text-decoration: underline;
+  color: var(--bittersweet-shimmer) !important;
+  text-decoration: underline !important;
 }
 
 .markdown-body ul {
