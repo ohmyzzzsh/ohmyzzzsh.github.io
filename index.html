@@ -227,44 +227,8 @@
             <h3 class="h3">Honors & Awards</h3>
           </div>
 
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">National Scholarship</h4>
-              <span>Dec 2024</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Outstanding Graduate of Beijing</h4>
-              <span>Jun 2022</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Outstanding Graduate of BUPT</h4>
-              <span>Jun 2022</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">1st-class Scholarship of BUPT</h4>
-              <span>Dec 2021</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Honorable Mention in MCM/ICM</h4>
-              <span>Apr 2021</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">National Scholarship</h4>
-              <span>Dec 2020</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">1st Prize in National Undergraduate Mathematics Contest (Beijing Division)</h4>
-              <span>Dec 2020</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">1st Prize in "Huawei Cup" National Undergraduate Contest of IoT Design (North China Division)</h4>
-              <span>Dec 2020</span>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">1st-class Scholarship of BUPT</h4>
-              <span>Dec 2019</span>
-            </li>
-          </ol>
+          <section class="misc-text" id="misc-content">
+          </section>
       </section>
 
         <!--
@@ -393,6 +357,10 @@
       const publicationsResponse = await fetch('./assets/content/publications.md');
       const publicationsText = await publicationsResponse.text();
       document.getElementById('publications-content').innerHTML = marked.parse(publicationsText);
+
+      const awardsResponse = await fetch('./assets/content/awards.md');
+      const awardsText = await awardsResponse.text();
+      document.getElementById('awards-content').innerHTML = marked.parse(awardsText);
 
       const miscResponse = await fetch('./assets/content/misc.md');
       const miscText = await miscResponse.text();

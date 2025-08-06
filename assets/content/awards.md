@@ -2,10 +2,10 @@ Dec 2024, National Scholarship
 
 Jun 2022, Oustanding Graduate of Beijing
 
-Jun 2022, Oustanding Graduate of BUPT
-
-Dec 2021, 1st-Class Scholarship of BUPT
-
 Dec 2020, National Scholarship
 
-Dec 2019, 1st-Class Scholarship of BUPT
+Dec 2020, 1st Prize in National Undergraduate Mathematics Contest (Beijing Division)
+
+Aug 2020, 1st Prize in "Huawei Cup" National Undergraduate Contest of IoT Design (North China Division)
+
+Dec 2019, 1st-class Scholarship of BUPT
