@@ -505,15 +505,39 @@ main {
   line-height: 1.3;
 }
 
+.about-text p { margin-bottom: 15px; }
+
 .research-text {
   color: var(--light-gray);
   font-size: var(--fs-main);
   font-weight: var(--fw-300);
-  line-height: 1.6;
-  margin-left: 20px;
+  line-height: 2;
+  margin-left: 15px;
 }
 
-.about-text p { margin-bottom: 15px; }
+.publications-text {
+  color: var(--light-gray);
+  font-size: var(--fs-main);
+  font-weight: var(--fw-300);
+  line-height: 2;
+  margin-left: 15px;
+}
+
+.awards-text {
+  color: var(--light-gray);
+  font-size: var(--fs-main);
+  font-weight: var(--fw-300);
+  line-height: 2;
+  margin-left: 15px;
+}
+
+.misc-text {
+  color: var(--light-gray);
+  font-size: var(--fs-main);
+  font-weight: var(--fw-300);
+  line-height: 2;
+  margin-left: 15px;
+}
 
 /**
  * #service 
