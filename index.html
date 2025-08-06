@@ -204,9 +204,19 @@
             <div class="icon-box">
               <ion-icon name="ribbon"></ion-icon>
             </div>
-            <h3 class="h3">Publications</h3>
+            <h3 class="h3">Honors & Awards</h3>
           </div>
           <div id="awards-container" class="markdown-body no-wrap-links"></div>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="extension-puzzle"></ion-icon>
+            </div>
+            <h3 class="h3">Misc</h3>
+          </div>
+          <div id="misc-container" class="markdown-body no-wrap-links"></div>
         </section>
 
         <!--
@@ -348,6 +358,17 @@
         ${marked.parse(text)}
       </section>
     `;
+  });
+
+  fetch('./assets/content/misc.md')
+  .then(r => r.text())
+  .then(text => {
+    document.getElementById('misc-container').innerHTML = `
+      <section class="markdown-body">
+        ${marked.parse(text)}
+      </section>
+    `;
+    adjustLinks('.markdown-body a');
   });
 
   function adjustLinks(selector) {
