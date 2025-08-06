@@ -6,9 +6,9 @@
 [**Robust or Risky: Measurement and Analysis of Domain Resolution Dependency**](https://ieeexplore.ieee.org/abstract/document/10621098)        
 **Shuhan Zhang**, Shuai Wang, Dan Li                    
 *IEEE INFOCOM 2024* (CCF-A, Acceptance rate: 256/1307≈19.6%)
-[[Webite]](https://ki3.org.cn/ruc)
+[[Webite]](https://ki3.org.cn/#/dnsDependence?sub=dnsDependencyExploration)
 
 [**SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast**](https://ieeexplore.ieee.org/abstract/document/11044640)      
 Ke Zhou, Shuai Wang, Li Chen, Dan Li, **Shuhan Zhang**                
 *IEEE INFOCOM 2025* (CCF-A, Acceptance rate: 272/1458≈18.7%)
-[[Webite]](https://ki3.org.cn/ruc)
+[[Webite]](https://ki3.org.cn/#/datasetDetail?dataset=anycast)
