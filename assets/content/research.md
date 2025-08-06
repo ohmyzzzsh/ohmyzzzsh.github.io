@@ -1,5 +1,5 @@
-🛡️ Internet infrastructure security
+🛡️ Network infrastructure security
 
-🪲 LLM-enabled protocol fuzzing
+🪲 LLM-enabled vulnerability discovery
 
 📏 Internet measurement
