@@ -348,7 +348,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
@@ -425,7 +425,7 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .contact-info address { font-style: normal; }
@@ -1399,6 +1399,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .about .article-title { margin-bottom: 20px; }
 
   .about-text { margin-bottom: 40px; }
+
+  .research .article-title { margin-bottom: 20px; }
+
+  .research-text { margin-bottom: 40px; }
 
   /* service */
 
