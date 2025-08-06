@@ -400,14 +400,14 @@ main {
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5px;
+  gap: 16px;
 }
 
 .contact-item {
   min-width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 .contact-info {
