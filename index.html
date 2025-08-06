@@ -156,7 +156,7 @@
             </div>
             <h3 class="h3">Research Interests</h3>
           </div>
-          <div id="research-container" class="markdown-body no-wrap-links"></div>
+          <div id="research-container" class="research-text"></div>
         </section>
 
         <section class="timeline">
@@ -206,7 +206,7 @@
             </div>
             <h3 class="h3">Honors & Awards</h3>
           </div>
-          <div id="awards-container" class="markdown-body no-wrap-links"></div>
+          <div id="awards-container" class="awards-text"></div>
         </section>
 
         <section class="timeline">
@@ -334,7 +334,7 @@
   .then(r => r.text())
   .then(text => {
     document.getElementById('research-container').innerHTML = `
-      <section class="markdown-body">
+      <section class="research-text">
         ${marked.parse(text)}
       </section>
     `;
@@ -355,7 +355,7 @@
   .then(r => r.text())
   .then(text => {
     document.getElementById('awards-container').innerHTML = `
-      <section class="markdown-body">
+      <section class="awards-text">
         ${marked.parse(text)}
       </section>
     `;
