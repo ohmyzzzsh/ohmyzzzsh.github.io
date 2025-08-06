@@ -298,7 +298,7 @@ article.active {
   font-size: 18px !important;
   line-height: 1.5;
   color: var(--light-gray);
-  margin-left: 5px !important;
+  margin-left: 6px !important;
 }
 
 .markdown-body a {
