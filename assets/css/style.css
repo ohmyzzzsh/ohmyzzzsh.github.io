@@ -67,7 +67,7 @@
   --vegas-gold: hsl(282, 21%, 50%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(278, 19%, 76%);
+  --bittersweet-shimmer: hsl(279, 31%, 71%);
 
   /**
    * typography
@@ -296,9 +296,9 @@ article.active {
 .markdown-body {
   font-family: Arial, sans-serif;
   font-size: 18px !important;
-  line-height: 1.3;
+  line-height: 1.5;
   color: var(--light-gray);
-  margin-left: 15px !important;
+  margin-left: 10px !important;
 }
 
 .markdown-body a {
