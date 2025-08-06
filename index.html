@@ -358,10 +358,6 @@
       const publicationsText = await publicationsResponse.text();
       document.getElementById('publications-content').innerHTML = marked.parse(publicationsText);
 
-      const educationResponse = await fetch('./assets/content/education.md');
-      const educationText = await educationResponse.text();
-      document.getElementById('education-content').innerHTML = marked.parse(educationText);
-
       const awardsResponse = await fetch('./assets/content/awards.md');
       const awardsText = await awardsResponse.text();
       document.getElementById('awards-content').innerHTML = marked.parse(awardsText);

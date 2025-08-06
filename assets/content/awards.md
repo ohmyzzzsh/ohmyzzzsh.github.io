@@ -1,5 +1,3 @@
-Award A
+Jun 2022, Oustanding Graduate of Beijing
 
-Award B
-
-Award C
+Dec 2020, National Scholarship
