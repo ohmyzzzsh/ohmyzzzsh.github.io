@@ -163,7 +163,7 @@
               <ion-icon name="bulb"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Research Interests</h3>
           </div>
 
           <ol class="research-text" id="research-content">
@@ -186,19 +186,6 @@
           </ol>
       </section>
 
-        <!-- <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="documents-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Publications</h3>
-          </div>
-
-          <ol class="timeline-list" id="publications-content">
-          </ol>
-        </section> -->
-
         <!--
           - Education
         -->
@@ -211,25 +198,41 @@
             <h3 class="h3">Education</h3>
           </div>
 
-          <ol class="timeline-list" id="education-content">
+          <ol class="education-text" id="education-content">
+          </ol>
+      </section>
+
+      <!--
+          - Awards
+        -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon"></ion-icon>
+            </div>
+
+            <h3 class="h3">Awards</h3>
+          </div>
+
+          <ol class="awards-text" id="awards-content">
           </ol>
       </section>
 
         <!--
-          - Awards
+          - Misc
         -->
-        <!-- <section class="timeline">
+        <section class="timeline">
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="school-outline"></ion-icon>
+              <ion-icon name="extension-puzzle"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Misc</h3>
           </div>
 
-          <ol class="timeline-list" id="education-content">
+          <ol class="misc-text" id="misc-content">
           </ol>
-      </section> -->
+      </section>
 
         <!--
           - service
@@ -338,13 +341,21 @@
       const researchText = await researchResponse.text();
       document.getElementById('research-content').innerHTML = marked.parse(researchText);
 
+      const publicationsResponse = await fetch('./assets/content/publications.md');
+      const publicationsText = await publicationsResponse.text();
+      document.getElementById('publications-content').innerHTML = marked.parse(publicationsText);
+
       const educationResponse = await fetch('./assets/content/education.md');
       const educationText = await educationResponse.text();
       document.getElementById('education-content').innerHTML = marked.parse(educationText);
 
-      const publicationsResponse = await fetch('./assets/content/publications.md');
-      const publicationsText = await publicationsResponse.text();
-      document.getElementById('publications-content').innerHTML = marked.parse(publicationsText);
+      const awardsResponse = await fetch('./assets/content/awards.md');
+      const awardsText = await educationResponse.text();
+      document.getElementById('awards-content').innerHTML = marked.parse(awardsText);
+
+      const miscResponse = await fetch('./assets/content/misc.md');
+      const miscText = await educationResponse.text();
+      document.getElementById('misc-content').innerHTML = marked.parse(miscText);
     }
 
     window.addEventListener('DOMContentLoaded', loadMarkdown);
