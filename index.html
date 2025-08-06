@@ -198,7 +198,21 @@
             <h3 class="h3">Education</h3>
           </div>
 
-          <ol class="education-text" id="education-content">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tsinghua University</h4>
+              <span>Sep 2022 - Jun 2027 (planned)</span>
+              <p class="timeline-text">
+                Ph.D. candidate in Cyberspace Security
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Beijing University of Posts and Telecommunications</h4>
+              <span>Sep 2018 - Jun 2022</span>
+              <p class="timeline-text">
+                B.S. in Internet of Things Engineering
+              </p>
+            </li>
           </ol>
       </section>
 
@@ -350,11 +364,11 @@
       document.getElementById('education-content').innerHTML = marked.parse(educationText);
 
       const awardsResponse = await fetch('./assets/content/awards.md');
-      const awardsText = await educationResponse.text();
+      const awardsText = await awardsResponse.text();
       document.getElementById('awards-content').innerHTML = marked.parse(awardsText);
 
       const miscResponse = await fetch('./assets/content/misc.md');
-      const miscText = await educationResponse.text();
+      const miscText = await miscResponse.text();
       document.getElementById('misc-content').innerHTML = marked.parse(miscText);
     }
 
