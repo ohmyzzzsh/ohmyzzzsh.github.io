@@ -146,21 +146,7 @@
 
         <div class="markdown-body no-wrap-links" id="about-container"></div>
         <div class="markdown-body no-wrap-links" id="research-container"></div>
-
-        <!--
-          - Publications
-        -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="documents"></ion-icon>
-            </div>
-
-            <h3 class="h3">Publications</h3>
-          </div>
-          <section class="publications-text" id="publications-content">
-          </section>
-      </section>
+        <div class="markdown-body no-wrap-links" id="publications-container"></div>
 
         <!--
           - Education
@@ -190,38 +176,6 @@
               </p>
             </li>
           </ol>
-      </section>
-
-      <!--
-          - Awards
-        -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="ribbon"></ion-icon>
-            </div>
-
-            <h3 class="h3">Honors & Awards</h3>
-          </div>
-
-          <section class="misc-text" id="misc-content">
-          </section>
-      </section>
-
-        <!--
-          - Misc
-        -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="extension-puzzle"></ion-icon>
-            </div>
-
-            <h3 class="h3">Misc</h3>
-          </div>
-
-          <section class="misc-text" id="misc-content">
-          </section>
       </section>
 
         <!--
@@ -357,7 +311,27 @@
           </section>
       </section>
     `;
-    adjustLinks('.research-text a');
+  });
+
+  fetch('./assets/content/publications.md')
+  .then(r => r.text())
+  .then(text => {
+    document.getElementById('publications-container').innerHTML = `
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="documents"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <div class="markdown-body">
+            ${marked.parse(text)}
+          </div>
+          </section>
+      </section>
+    `;
   });
 
   function adjustLinks(selector) {
