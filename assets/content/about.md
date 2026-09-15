@@ -1,0 +1,5 @@
+Hi! I am a Ph.D. candidate at the [**Institute for Network Sciences and Cyberspace**](https://www.insc.tsinghua.edu.cn/index.htm), [**Tsinghua University**](https://www.tsinghua.edu.cn). I am with the NASP (Network Architecture, System and Protocol) research lab, supervised by [**Prof. Dan Li**](https://nasp.cs.tsinghua.edu.cn/lidan.html) (IEEE Fellow). Before that, I received my Bachelor’s degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn) in 2022.
+
+My research focuses on **network infrastructure security** and **Internet measurement**, with publications at top-tier venues including USENIX Security, IEEE INFOCOM, etc. My work has been acknowledged by major vendors such as ISC BIND, PowerDNS, Google, Cloudflare, Cisco OpenDNS, etc., and has resulted in [multiple CVE assignments](#cve).
+
+<font color="#c7a6db">I am actively seeking positions in both **academia** and **industry** starting in **2027**. Please feel free to contact me at zhangsh22 [at] mails.tsinghua.edu.cn.</font>
