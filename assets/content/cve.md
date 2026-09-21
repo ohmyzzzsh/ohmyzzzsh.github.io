@@ -1,0 +1,4 @@
+- [<font color="#c7a6db">**CVE-2026-3592**</font>](https://www.cve.org/CVERecord?id=CVE-2026-3592) ([ISC BIND 9](https://www.isc.org/bind/))
+- [<font color="#c7a6db">**CVE-2026-24027**</font>](https://www.cve.org/CVERecord?id=CVE-2026-24027) ([PowerDNS Recursor](https://www.powerdns.com/powerdns-recursor))
+- [<font color="#c7a6db">**CVE-2026-36478**</font>](https://www.cve.org/CVERecord?id=CVE-2026-36478) ([Technitium DNS Server](https://technitium.com/dns/))
+- [<font color="#c7a6db">**CVE-2026-45557**</font>](https://www.cve.org/CVERecord?id=CVE-2026-45557) ([Technitium DNS Server](https://technitium.com/dns/))
