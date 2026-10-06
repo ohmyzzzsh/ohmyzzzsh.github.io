@@ -65,7 +65,7 @@
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(285, 31%, 80%);
   --vegas-gold: hsl(282, 21%, 50%);
-  --light-gray: #d6d6d6;
+  --light-gray: #d1d1d1;
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(279, 31%, 71%);
 
@@ -316,6 +316,21 @@ article.active {
   text-decoration: underline;
 }
 
+#publications-container .publication-links {
+  font-size: 15px;
+  color: #a8a8a8;
+}
+
+#publications-container .publication-links a,
+#publications-container .publication-links a:visited {
+  color: #a8a8a8 !important;
+}
+
+#publications-container .publication-links a:hover,
+#publications-container .publication-links a:focus {
+  color: #c7a6db !important;
+}
+
 /* Reset display rules inherited from the site template inside Markdown. */
 .markdown-body span { display: inline; }
 .markdown-body strong { font-weight: 700; }
@@ -405,7 +420,7 @@ html { scroll-behavior: smooth; }
 .section-nav-link:hover,
 .section-nav-link:focus {
   color: var(--orange-yellow-crayola);
-  background: var(--onyx);
+  background: #212122;
 }
 
 :is(#about, #news, #publications, #education, #awards, #projects, #cve) {
@@ -425,7 +440,7 @@ a:focus {
 
 .page-footer {
   margin: 18px 0 0;
-  color: var(--light-gray-70);
+  color: #a8a8a8;
   font-size: 14px;
   text-align: center;
 }
@@ -495,7 +510,7 @@ main {
 
 .info-content .title {
   color: var(--light-gray);
-  background: var(--onyx);
+  background: #212122;
   font-size: 15px;
   font-weight: var(--fw-300);
   width: max-content;
