@@ -318,7 +318,7 @@ article.active {
 
 #publications-container .publication-links {
   font-size: 15px;
-  color: #6c6c6c;
+  color: #d1d1d1;
 }
 
 #publications-container .publication-link-emoji {
@@ -327,7 +327,7 @@ article.active {
 
 #publications-container .publication-links a,
 #publications-container .publication-links a:visited {
-  color: #6c6c6c !important;
+  color: #d1d1d1 !important;
 }
 
 #publications-container .publication-links a:hover,
@@ -367,6 +367,10 @@ article.active {
   padding-left: 1em;
   color: var(--light-gray-70);
   border-left: 4px solid var(--jet);
+}
+
+#about-container blockquote {
+  border-left-color: #c7a6db;
 }
 
 .markdown-body code {
@@ -444,7 +448,7 @@ a:focus {
 
 .page-footer {
   margin: 18px 0 0;
-  color: #6c6c6c;
+  color: #666666;
   font-size: 14px;
   text-align: center;
 }
