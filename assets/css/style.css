@@ -318,7 +318,7 @@ article.active {
 
 #publications-container .publication-links {
   font-size: 15px;
-  color: #d1d1d1;
+  color: #7a7a7a;
 }
 
 #publications-container .publication-link-emoji {
@@ -327,7 +327,7 @@ article.active {
 
 #publications-container .publication-links a,
 #publications-container .publication-links a:visited {
-  color: #d1d1d1 !important;
+  color: #7a7a7a !important;
 }
 
 #publications-container .publication-links a:hover,
