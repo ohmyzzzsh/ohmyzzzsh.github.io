@@ -59,13 +59,13 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --eerie-black-2: #181818;
+  --smoky-black: #000000;
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(285, 31%, 80%);
   --vegas-gold: hsl(282, 21%, 50%);
-  --light-gray: hsl(0, 0%, 84%);
+  --light-gray: #d6d6d6;
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(279, 31%, 71%);
 
@@ -127,7 +127,7 @@
 }
 
 a {
-  color: #cccccc;
+  color: var(--light-gray);
   text-decoration: none;
 }
 
@@ -307,7 +307,7 @@ article.active {
 
 .markdown-body a {
   display: inline;
-  color: #cccccc;
+  color: var(--light-gray);
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -415,7 +415,7 @@ html { scroll-behavior: smooth; }
 /* Linked text uses a consistent palette unless its Markdown explicitly sets a color. */
 a,
 a:visited {
-  color: #cccccc !important;
+  color: var(--light-gray) !important;
 }
 
 a:hover,
@@ -479,7 +479,7 @@ main {
 }
 
 .info-content .name {
-  color: #cccccc;
+  color: var(--light-gray);
   font-size: var(--fs-2);
   font-weight: var(--fw-600);
   letter-spacing: -0.25px;
@@ -487,14 +487,14 @@ main {
 }
 
 .info-content .name-zh {
-  color: #cccccc;
+  color: var(--light-gray);
   font-size: var(--fs-2);
   font-weight: var(--fw-600);
   margin-bottom: 10px;
 }
 
 .info-content .title {
-  color: #cccccc;
+  color: var(--light-gray);
   background: var(--onyx);
   font-size: 15px;
   font-weight: var(--fw-300);
