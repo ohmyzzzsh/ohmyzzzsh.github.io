@@ -146,6 +146,11 @@ const renderMarkdown = (source) => {
     }
 
     const lines = block.split('\n');
+    if (lines.every((line) => /^>\s?/.test(line))) {
+      const quote = lines.map((line) => line.replace(/^>\s?/, '')).join('\n');
+      return `<blockquote>${renderMarkdown(quote)}</blockquote>`;
+    }
+
     if (lines.every((line) => /^[-*+]\s+/.test(line))) {
       const items = lines
         .map((line) => `<li>${renderInlineMarkdown(line.replace(/^[-*+]\s+/, ''))}</li>`)

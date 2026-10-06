@@ -318,7 +318,7 @@ article.active {
 
 #publications-container .publication-links {
   font-size: 15px;
-  color: #666666;
+  color: #6c6c6c;
 }
 
 #publications-container .publication-link-emoji {
@@ -327,7 +327,7 @@ article.active {
 
 #publications-container .publication-links a,
 #publications-container .publication-links a:visited {
-  color: #666666 !important;
+  color: #6c6c6c !important;
 }
 
 #publications-container .publication-links a:hover,
@@ -444,7 +444,7 @@ a:focus {
 
 .page-footer {
   margin: 18px 0 0;
-  color: #666666;
+  color: #6c6c6c;
   font-size: 14px;
   text-align: center;
 }
@@ -514,7 +514,7 @@ main {
 
 .info-content .title {
   color: var(--light-gray);
-  background: #212122;
+  background: #252525;
   font-size: 15px;
   font-weight: var(--fw-300);
   width: max-content;

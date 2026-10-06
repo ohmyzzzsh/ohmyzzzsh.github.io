@@ -2,4 +2,4 @@ Hi! I am a final-year Ph.D. candidate at the [**Institute for Network Sciences a
 
 My research focuses on **network infrastructure security** and **Internet measurement**, with publications at top-tier venues including USENIX Security, IEEE INFOCOM, etc. My work has been acknowledged by major vendors such as ISC BIND, PowerDNS, Google, Cloudflare, Cisco OpenDNS, etc., and has resulted in [multiple CVE assignments](#cve).
 
-<font color="#c7a6db">I am actively seeking positions in both **academia** and **industry** starting in **2027**. Please feel free to contact me at zhangsh22 [at] mails.tsinghua.edu.cn.</font>
+> I am actively seeking positions in both **academia** and **industry** starting in **2027**. Please feel free to contact me at zhangsh22 [at] mails.tsinghua.edu.cn.
