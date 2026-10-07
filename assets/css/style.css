@@ -985,9 +985,6 @@ main {
 /* The final section only needs the article's own bottom padding. */
 #projects { margin-bottom: 0; }
 
-/* Keep the final Projects content closer to the article border. */
-article.about { padding-bottom: clamp(12px, 2vw, 20px); }
-
 .timeline .title-wrapper {
   display: flex;
   align-items: center;
@@ -2021,8 +2018,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article { width: auto; }
 
-  article { min-height: 100%; }
-
 
 
   /**
@@ -2035,7 +2030,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 20px;
+    gap: 15px;
   }
 
   .main-content {
