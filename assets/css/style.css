@@ -419,7 +419,7 @@ article.active {
 .markdown-body hr { margin: 1.5em 0; border: 0; border-top: 1px solid var(--jet); }
 .markdown-error { color: var(--bittersweet-shimmer); }
 
-#about-container { margin-bottom: 30px; }
+#about-container { margin-bottom: 40px; }
 :is(#news-container, #publications-container, #awards-container) { margin-left: 20px; }
 
 html { scroll-behavior: smooth; }
@@ -985,8 +985,7 @@ main {
 /* The final section only needs the article's own bottom padding. */
 #projects { margin-bottom: 0; }
 
-/* Keep the final content closer to the article border. */
-article.about { padding-bottom: 25px; }
+article.about { padding-bottom: 20px; }
 
 @media (max-width: 580px) {
   article.about { padding-bottom: 30px; }
