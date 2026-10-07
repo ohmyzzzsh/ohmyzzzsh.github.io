@@ -985,6 +985,13 @@ main {
 /* The final section only needs the article's own bottom padding. */
 #projects { margin-bottom: 0; }
 
+/* Keep the final content closer to the article border. */
+article.about { padding-bottom: clamp(12px, 2vw, 20px); }
+
+@media (max-width: 580px) {
+  article.about { padding-bottom: 30px; }
+}
+
 .timeline .title-wrapper {
   display: flex;
   align-items: center;
@@ -2017,6 +2024,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article { width: auto; }
+
+  article { min-height: 100%; }
 
 
 
