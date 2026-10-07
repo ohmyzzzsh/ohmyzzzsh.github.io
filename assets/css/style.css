@@ -2035,11 +2035,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 25px;
+    gap: 20px;
   }
 
   .main-content {
-    width: 940px;
+    width: 930px;
     min-width: 0;
     margin: 0;
   }
