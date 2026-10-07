@@ -318,16 +318,28 @@ article.active {
 
 #publications-container .publication-links {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #d1d1d1;
 }
 
-#publications-container .publication-link-emoji {
-  font-size: 13px;
+#publications-container .publication-link-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  vertical-align: middle;
 }
 
 #publications-container .publication-links a,
 #publications-container .publication-links a:visited {
-  color: #7a7a7a !important;
+  display: inline-block;
+  color: #c7a6db !important;
+  background: transparent;
+  border: 1px solid #c7a6db;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 #publications-container .publication-links a:hover,
