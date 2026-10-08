@@ -2038,7 +2038,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 15px;
+    gap: 10px;
   }
 
   .main-content {
