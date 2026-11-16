@@ -1,7 +1,7 @@
 <span style="background-color: #8a649a; color: #ffffff; padding: 1px 6px; border-radius: 5px; font-weight: 600; font-size: 0.9em; margin-right: 6px;">CCS ’26</span><font color="#c7a6db">**Good Cache, BAD Cache: Exploiting DNSSEC Validation Failures for DNS Cache Poisoning Attacks**</font>      
 Shiming Liu, Yunyi Zhang, Chaoyi Lu, Baojun Liu, **<u>Shuhan Zhang</u>**, Donghong Sun, Yong Ma, Linjian Song        
 [*The 33rd ACM Conference on Computer and Communications Security (ACM CCS 2026)*](https://www.sigsac.org/ccs/CCS2026/index.html)         
-<span class="publication-links">(to appear)</span>
+<span class="publication-links publication-link-list">[Paper](https://dl.acm.org/doi/abs/10.1145/3830454.3832699) [Code](https://zenodo.org/records/23880699)</span>
 
 <span style="background-color: #8a649a; color: #ffffff; padding: 1px 6px; border-radius: 5px; font-weight: 600; font-size: 0.9em; margin-right: 6px;">USENIX Security ’25</span><font color="#c7a6db">**Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation**</font>       
 **<u>Shuhan Zhang</u>**, Shuai Wang, Li Chen, Dan Li, Baojun Liu         
