@@ -347,6 +347,8 @@ article.active {
   color: #c7a6db !important;
 }
 
+#publications-container > p:not(:last-child) { margin-bottom: 20px; }
+
 /* Reset display rules inherited from the site template inside Markdown. */
 .markdown-body span { display: inline; }
 .markdown-body strong { font-weight: 700; }
