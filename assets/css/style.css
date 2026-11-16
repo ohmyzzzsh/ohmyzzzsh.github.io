@@ -347,7 +347,7 @@ article.active {
   color: #c7a6db !important;
 }
 
-#publications-container > p:not(:last-child) { margin-bottom: 25px; }
+#publications-container > p:not(:last-child) { margin-bottom: 30px; }
 
 /* Reset display rules inherited from the site template inside Markdown. */
 .markdown-body span { display: inline; }
